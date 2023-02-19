@@ -5,13 +5,13 @@ const leaderboardData = [
   { name: 'Ifunanya', score: 100, age: 25, gender: 'female' },
   { name: 'Goodnews', score: 50, age: 30, gender: 'male' },
   { name: 'Charles', score: 75, age: 40, gender: 'male' },
-  { name: 'Onyebuchi', score: 75, age: 40, gender: 'male' },
-  { name: 'Michael', score: 75, age: 40, gender: 'male' },
-  { name: 'Ugochukwu', score: 75, age: 40, gender: 'male' },
-  { name: 'Chiagozie', score: 75, age: 40, gender: 'male' },
-  { name: 'Juliet', score: 75, age: 40, gender: 'male' },
-  { name: 'Princess', score: 75, age: 40, gender: 'male' },
-  { name: 'Alphonsine', score: 75, age: 40, gender: 'male' },
+  { name: 'Onyebuchi', score: 68, age: 40, gender: 'male' },
+  { name: 'Michael', score: 34, age: 40, gender: 'male' },
+  { name: 'Ugochukwu', score: 89, age: 40, gender: 'male' },
+  { name: 'Chiagozie', score: 65, age: 40, gender: 'male' },
+  { name: 'Juliet', score: 34, age: 40, gender: 'female' },
+  { name: 'Princess', score: 56, age: 40, gender: 'female' },
+  { name: 'Alphonsine', score: 45, age: 40, gender: 'female' },
 ];
 
 const Leaderboard = ({ data, onAdd, onRemove, onUpdate }) => {
